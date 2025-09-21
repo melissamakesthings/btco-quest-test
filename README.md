@@ -1,7 +1,7 @@
 # btco-quest
 
-This is an RPG game for Rooms. You can play it [here](https://rooms.xyz/btco/quest).
-It was originally developed by [Bruno Oliveira "btco"](https://twitter.com/btco_code).
+This is an RPG game for Rooms developed by [Bruno Oliveira "btco"](https://twitter.com/btco_code).
+You can play it [here](https://rooms.xyz/btco/quest).
 
 ## Build Requirements
 
