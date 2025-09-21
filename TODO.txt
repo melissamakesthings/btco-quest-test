@@ -1,0 +1,134 @@
+NOTES/TODO
+
+MQS  STATUS
+0    nondum ensem invenit
+1    ad facum venditorem it
+2    fructa colligit
+3    ad venditorem redit
+4    aedilem HB convenit
+5    ad speluncam
+6    ad aedilem NS it
+7    architectum quaerit
+8    librum quaerit
+9    librum architecto refert
+10   in HB iter facit
+11   cum unguentario colloquendum est
+12   lavendulas colligit
+13   ad unguentarium, lavendulis collectis
+14   unguentum aedili portandum
+15   astrolabium quaerendum
+16   astrolabium aedili portandum
+17   navem conscendendam
+18   ad turrim iter est faciendum
+
+LOCI                    X   Y
+urbs septentrionis     70 103
+introitus speluncae    76 136
+exitus speluncae       68 128
+oppidum pontis         87 162
+palus fetida           28 173
+introitum solitudinis  24 100
+apud architectum       24   3
+navis                 119 128
+astrolabium            12 135
+ligula (turris)        12 128
+insula hiemalis       105  77
+introitus turris      104   7
+
+PERSONAE
+ET_NPC_1   oppidanus
+ET_NPC_2   propola / facum venditor
+ET_NPC_3   ferrarius faber
+ET_NPC_4   apothecarius
+ET_NPC_5   unguentarius
+ET_NPC_6   aedilis
+
+RES
+ 1 ensis
+ 2 arcus?
+ 3 potio
+ 4 fax
+ 5 unguentum
+ 6 charta mundi
+ 7
+ 8 lavendula
+ 9 fructum
+10 clavis
+11 liber
+12 astrolabium
+13 
+14
+15
+16
+
+
+
+
+
+* silva medionalis nimis obscura est si lusor facem non habet
+  (nec profecto habebit, nam hoc est negotium ipsum faciendum)
+
+* nisi lusor aedilem Northshore urbis adlocutus sit,
+  non licebit in solitudinem ingredi
+
+* indicia:
+  - pratus florum ubi inveniuntur lavendulae
+  - est senex prope lacum in montibus qui unguentum parat
+  - aliquo modo nuntiandum est astrolabium in palude esse
+
+* aedilis northshore nihil dicit (cum lusor cum architecto
+  collocutus est?)
+
+* architecto victo nuntiandum est ludum finem fecisse, nam non
+  satis patet
+
+
+* chartam mundi ab initio lusori praebere, quo sciat et ubi sit
+  et quo iter sit faciendum
+
+* obstare lusori quin urbe HB excedat nisi aedilem adlocutus
+
+* status fabulae numero designare, ex quo numero pendebunt
+  indicia sermonesque -> charta quoque
+
+
+ARGUMENTUM
+
+1. lusor in urbem Pontis pervenit, vidit pontem fractum esse,
+   neque in alteram ripam fluminis transire licet
+2. cum aedile urbis Pontis collocutus, negotium accipit ut
+   architectum quemdam quaerat ad pontem reficiendum;
+   sed arch. ille in urbe Septentrionale est, quo una via est
+   iter faciendum: per speluncam
+3. lusor facibus emptis per speluncam in Septentrionalem iter
+   facto, cum aedile Septentrionalis colloquitur, qui ei
+   nuntiat architectum profectum esse ad bibliothecam quamdam
+   in solitudine quaerendam - quia librum "Bridgebuilding
+   unabridged" sibi statim comparandum esse ducit
+4. lusor per solitudinem magnis periculis perpessus tandem ad
+   bibliotecam pervenit, ibique architectum invenit qui
+   perterritus auxilium a lusori petit quia bibliotheca nimis
+   obscura et monstris conferta est
+5. lusori auxilio architectus librum sibi comparat, reficitque
+   pontem urbis Pontis, deinde abit in "terram hiemalem".
+6. lusor in oppidum Pontis revenit, ubi omnes ei gratias magnas
+   agunt. nunc licet pontem transire.
+7. sed nunc subito nuntiatum (a quo?) est architectum insanire -
+   nam in libro erat *maleficium*! Quo maleficio nunc ille
+   pontes ubique construire vult, in iis **pontem ad inferos**!
+   Si pontem illum construxerit, omnium rerum exitium adferet.
+8. lusori nunc est iter faciendum in terras hiemales, ubi
+   contra architectum congredietur
+
+
+-> fortasse navis est qua lusor in terras hiemales vehi potest;
+   sed non licet conscendere nisi astrolabium habeat.
+   astrolabium in palude est.
+
+   agendum: indicium astrolabi
+   * non licet per paludem ambulare nisi unguento quodam perfusus
+   * unguentum ex floribus lavendulae fieri potest
+ 
+
+
+   

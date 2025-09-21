@@ -1,0 +1,72 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "world.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "desert.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 342,
+                "y": -114
+            }
+        },
+        "mines.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 128,
+                "y": 144
+            }
+        },
+        "quest-tiles.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
+        "tunnel.tmx": {
+            "scale": 2.4225,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 90.81527347781216,
+                "y": 157.27554179566565
+            }
+        },
+        "world.tmx": {
+            "scale": 1.0369,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 855.916674703443,
+                "y": 294.62821872890345
+            }
+        }
+    },
+    "last.imagePath": "/Users/bruno/w-p/btco-code/rooms-btco-quest/maps",
+    "map.height": 192,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 256,
+    "openFiles": [
+        "quest-tiles.tsx",
+        "world.tmx",
+        "mines.tmx"
+    ],
+    "project": "quest.tiled-project",
+    "recentFiles": [
+        "quest-tiles.tsx",
+        "mines.tmx",
+        "world.tmx",
+        "desert.tmx",
+        "tunnel.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
