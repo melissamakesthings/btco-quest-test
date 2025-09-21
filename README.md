@@ -30,3 +30,5 @@ The game should now run successfully.
 Feel free to create your own game based on this engine!
 Modify the dialogues, map, items, anything you want.
 
+nb: This is my personal fork for learning and experimentation.
+
