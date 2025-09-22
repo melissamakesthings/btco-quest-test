@@ -23,7 +23,7 @@
 --   Direction can be "N", "E", "S", or "W". If the callback returns true, the transition is blocked.
 -- "<triggerName>"
 --   Global trigger name that can be called from a conversation, etc.
-local _PHASE0_GUIDE_PLACED = false
+local _PHASE0_GEMINI_PLACED = false
 ALL_TRIGGERS = {
   ------------------------------------------------------------------------------
   -- Starting Area (World Map)
@@ -34,19 +34,16 @@ ALL_TRIGGERS = {
   if Player.hasItem(IT_SWORD) then
     Entities.deleteAllOfType(ET_SWORD)
   end
-
-  -- Spawn a Guide once per session so you can test dialogue
-  if not _PHASE0_GUIDE_PLACED then
-    _PHASE0_GUIDE_PLACED = true
-    local mx, my = 5, 6
-    local wx, wz = Area.getTileWorldCenter(mx, my)
-    Entities.create(ET_NPC_1, wx, wz)
-  end
-end,
-
-["ECOLL " .. ET_NPC_1 .. " AREA 2 13"] = function(ent)
-  Dialogues.runDialogue("GUIDE_INTRO")
-end,
+  if not _PHASE0_GEMINI_PLACED then
+      _PHASE0_GEMINI_PLACED = true
+      local mx, my = 5, 6
+      local wx, wz = Area.getTileWorldCenter(mx, my)
+      Entities.create(ET_GEMINI, wx, wz)
+    end
+  end,
+  ["ECOLL " .. ET_GEMINI .. " AREA 2 13"] = function(ent)
+    Dialogues.runDialogue("GEMINI_INTRO")
+  end,
   -- Pick up the sword on the first screen.
   ["ECOLL " .. ET_SWORD] = function(ent)
     -- Sword in the first screen.

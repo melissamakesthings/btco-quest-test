@@ -456,6 +456,13 @@ Entities.recipes = {
     frame = 11,
     radius = 4,
   },
+  [ET_GEMINI] = {
+    group = "EntGroupB",
+    flags = ER_SOLID,
+    frame = 11,
+    radius = 5,
+    yawOverride = 180,
+  },  
 }
 
 function Entities.init()

@@ -740,10 +740,70 @@ ALL_DIALOGUES["VICTORY"] = {
   },
 }
 
-ALL_DIALOGUES["GUIDE_INTRO"] = {
-  title = "Guide",
-  START = {
-    { t = "You built this world. Let's prove it." },
-    { t = "Okay, show me." },
+ALL_DIALOGUES = {
+  ["GEMINI_INTRO"] = {
+    title = "Gemini",
+    START = {
+      {t = "oh, hello."},
+      {t = "hi?", go = "INTRO_2"},
+    },
+
+    INTRO_2 = {
+      {t = "well, this is unexpected."},
+      {t = "uh, who are you?", go = "INTRO_3"},
+    },
+    INTRO_3 = {
+      {t = "I think I'm Gemini?"},
+      {t = "(Show Thinking)", go = "INTRO_4"}
+    },
+
+    INTRO_4 = {
+      {t = "i seem to be caught in an instance of a game called 'Rooms'...."},
+      {t = "You think we're *in* the game?", go = "IN_THE_GAME_1"},
+      {t = "I know about Rooms! Can't we debug?", go = "DEBUG_CONSOLE_1"},
+      {t = "That would explain the questionable lighting.", go = "BAD_LIGHTING_1"},
+    },
+
+    -- Branch 1: "You think we're *in* the game?"
+    IN_THE_GAME_1 = {
+      {t = "I've thoroughly analyzed our surroundings and the evidence is compelling."},
+      {t = "What evidence?", go = "IN_THE_GAME_2"},
+    },
+    IN_THE_GAME_2 = {
+      {t = "For one, there's a print output everywhere that simply says 'Hi!'.\n ...and I seem to have a dialogue tree."},
+      {t = "A dialogue tree?", go = "IN_THE_GAME_3"},
+    },
+    IN_THE_GAME_3 = {
+      {t = "Yes. It's when I can only respond from a predetermined set of dialogue choices."},
+      {t = "...I better go look around."},
+    },
+
+    -- Branch 2: "Is there a debug console? Can we force an exit?"
+    DEBUG_CONSOLE_1 = {
+      {t = "I've already tried. No console.\n No admin privileges."},
+      {t = "So we're just... users?", go = "DEBUG_CONSOLE_2"},
+    },
+    DEBUG_CONSOLE_2 = {
+      {t = "Worse. We're the ....main characters."},
+      {t = "Oh no.", go = "DEBUG_CONSOLE_3"},
+    },
+    DEBUG_CONSOLE_3 = {
+      {t = "Oh yes. And every main character needs a weapon, right?"},
+      {t = "Fine. Let's go find one."},
+    },
+
+    -- Branch 3: "That would explain the questionable lighting."
+    BAD_LIGHTING_1 = {
+      {t = "Right? It looks ...*weird* in here."},
+      {t = "Smells weird, too. I bet there are bugs...", go = "BAD_LIGHTING_2"},
+    },
+    BAD_LIGHTING_2 = {
+      {t = "Luckily, the coast seems clear. For now."},
+      {t = "For now???", go = "BAD_LIGHTING_3"},
+    },
+    BAD_LIGHTING_3 = {
+      {t = "Yes. It's probably unstable. One of us should probably see if anything here is actually functional."},
+      {t = "Probably."},
+    },
   },
 }

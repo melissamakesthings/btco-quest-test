@@ -67,6 +67,8 @@ local ET_NPC_6 = 29
 local ET_FIREBUSH = 30
 local ET_NPC_ARCHITECT = 31
 local ET_GATE = 32
+local ET_GEMINI = 33
+
 
 -- Entities >= 128 are entities created at runtime that can't
 -- be placed in the map (spawned by enemies, dropped loot, etc).
@@ -183,3 +185,10 @@ local MQS_TO_SHIP = 17
 -- Player sailed to the Winter Lands and must now find the Bridge Architect
 -- at the top of the tower.
 local MQS_TO_END = 18
+
+local MQS_INTRO = 0         -- The initial state of the game
+local MQS_CHAPTER_1 = 1     -- Goal: Essence of Rules
+local MQS_CHAPTER_2 = 2     -- Goal: Essence of the World
+local MQS_CHAPTER_3 = 3     -- Goal: Essence of the Character
+local MQS_CHAPTER_4 = 4     -- Goal: Essence of the Story
+local MQS_CHAPTER_5 = 5     -- Goal: Essence of Failure
