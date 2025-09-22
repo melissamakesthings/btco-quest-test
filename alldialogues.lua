@@ -739,3 +739,11 @@ ALL_DIALOGUES["VICTORY"] = {
     {t="[Return to Highbridge]", trigger="VICTORY_RETURN"},
   },
 }
+
+ALL_DIALOGUES["GUIDE_INTRO"] = {
+  title = "Guide",
+  START = {
+    { t = "You built this world. Let's prove it." },
+    { t = "Okay, show me." },
+  },
+}
